@@ -7,3 +7,7 @@ __pycache__/
 .ipynb_checkpoints/
 # Ignore large models
 models/distilbert_disaster/
+# Ignore large Kaggle datasets
+data/raw/*.csv
+data/processed/*.csv
+*.zip

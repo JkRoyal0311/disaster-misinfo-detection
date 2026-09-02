@@ -59,16 +59,17 @@ def compute_metrics(pred):
 model = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=2)
 
 # Set training arguments
+# Set training arguments
 training_args = TrainingArguments(
-    output_dir='./results',          # Output directory
-    num_train_epochs=3,              # Total number of training epochs
-    per_device_train_batch_size=8,   # Batch size per device during training
-    per_device_eval_batch_size=8,    # Batch size for evaluation
-    warmup_steps=10,                 # Number of warmup steps for learning rate scheduler
-    weight_decay=0.01,               # Strength of weight decay
-    logging_dir='./logs',            # Directory for storing logs
+    output_dir='./results',          
+    num_train_epochs=3,              
+    per_device_train_batch_size=8,   
+    per_device_eval_batch_size=8,    
+    warmup_steps=10,                 
+    weight_decay=0.01,               
+    logging_dir='./logs',            
     logging_steps=5,
-    eval_strategy="epoch"      # Evaluate at the end of each epoch
+    eval_strategy="epoch"      # Updated parameter name!
 )
 
 # Initialize Trainer
