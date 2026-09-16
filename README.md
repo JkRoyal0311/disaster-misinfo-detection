@@ -28,7 +28,7 @@ An end-to-end NLP and Deep Learning pipeline designed to identify, filter, and f
 - [Roadmap & Future Improvements](#-roadmap--future-improvements)
 - [Contributing](#-contributing)
 - [License](#-license)
-
+- [Deploy](#-Deploy)
 ---
 
 ## 🌪 Overview & Problem Statement
@@ -260,3 +260,8 @@ Open a Pull Request.
 Distributed under the MIT License. See LICENSE for more information.
 
 Developed with ❤️ to empower emergency response operations and mitigate digital disaster panic.
+
+
+## Deploy
+
+**Live Demo:** [Check out the deployed Streamlit app here](https://disaster-misinfo-detection-mlpnko369.streamlit.app/)
